@@ -1,5 +1,7 @@
 # 玩转 webpack
 
+全方面解析 webpack 核心功能和优化策略，后面会持续更新源码解析等等
+
 ## webpack 核心概念
 
 1. [webpack 核心概念之 entry/output](https://github.com/ravencrown/play-webpack/issues/1)
