@@ -37,4 +37,37 @@
 12. [webpack 进阶用法之 优化构建时命令行的显示日志](https://github.com/ravencrown/play-webpack/issues/24)
 13. [webpack 进阶用法之 构建异常和中断处理](https://github.com/ravencrown/play-webpack/issues/25)
 
+## webpack 优化策略
+
+1. 速度分析
+2. 体积分析 
+3. 多进程/多实例 构建
+4. 多进程并行压缩代码
+5. 使用 exterals 分离基础包
+6. 利用缓存提升二次构建速度
+7. 缩小构建目标
+8. 使用 Tree-shaking 擦除无用的 JS 和 CSS
+9. 使用动态 Polyfill
+10. 使用 webpack 进行图片压缩
+
+## webpack 源码分析
+
+1. webpack 的本质和 Tapable 介绍
+2. Tapable 中的 Sync* 类型的钩子
+3. Tapable 中的 Async* 类型的钩子
+4. webpack 事件流
+5. compile 和 compilation 对象介绍
+6. 编译和构建主流程
+7. 通过 emit 输出构建资源到 Path
+8. 写一个简易的 webpack
+
+## 编写 loader 和插件
+
+1. loader 的执行顺序
+2. loader 匹配文件的可选方式
+3. 写一个自动合成雪碧图的loader
+4. 写一个压缩构建资源为 zip 包的插件
+
+
+
 
